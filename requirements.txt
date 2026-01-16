@@ -1,0 +1,40 @@
+# Project VISTA Dependencies
+# Zero-Shot Fashion Object Detection with Vision-Language Models
+
+# Core ML frameworks
+torch>=2.0.0
+torchvision>=0.15.0
+transformers>=4.30.0
+
+# CLIP and vision-language models
+openai-clip>=1.0.1
+open_clip_torch>=2.20.0
+
+# Object detection
+ultralytics>=8.0.0  # YOLOv8
+
+# Image processing
+Pillow>=9.5.0
+opencv-python>=4.7.0
+albumentations>=1.3.0
+
+# Data handling
+numpy>=1.24.0
+pandas>=2.0.0
+pycocotools>=2.0.6
+
+# Visualisation
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Utilities
+tqdm>=4.65.0
+pyyaml>=6.0
+scikit-learn>=1.2.0
+
+# Kaggle API for dataset download
+kaggle>=1.5.13
+
+# Jupyter for notebooks
+jupyter>=1.0.0
+ipywidgets>=8.0.0
